@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#channels {
+    margin-top: 20px;
+}
+
+.channel {
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+video {
+    width: 100%;
+    margin-top: 20px;
+}

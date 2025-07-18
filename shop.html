@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Furniture Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">FurnitureStore</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html" id="auth-link">Sign In</a></li>
+        </ul>
+    </nav>
+
+    <main class="shop-container">
+        <h1>Shop Furniture</h1>
+        <div class="filters">
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="sofa">Sofas</option>
+                <option value="chair">Chairs</option>
+                <option value="table">Tables</option>
+            </select>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Furniture Store. All rights reserved.</p>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

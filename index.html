@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">FurnitureStore</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html" id="auth-link">Sign In</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="slides">
+            <div class="slide active" style="background-image:url('https://via.placeholder.com/1200x400?text=Sofa+Sale');">
+                <div class="caption">
+                    <h1>Comfort Sofas</h1>
+                    <p>Starting at $299</p>
+                    <a href="shop.html" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image:url('https://via.placeholder.com/1200x400?text=Dining+Sets');">
+                <div class="caption">
+                    <h1>Elegant Dining</h1>
+                    <p>New Arrivals</p>
+                    <a href="shop.html" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image:url('https://via.placeholder.com/1200x400?text=Office+Chairs');">
+                <div class="caption">
+                    <h1>Office Chairs</h1>
+                    <p>Upgrade Your Workspace</p>
+                    <a href="shop.html" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="highlights">
+        <h2>New Arrivals</h2>
+        <div class="highlight-grid" id="new-arrivals"></div>
+    </section>
+
+    <section class="highlights">
+        <h2>Best Sellers</h2>
+        <div class="highlight-grid" id="best-sellers"></div>
+    </section>
+
+    <section class="highlights">
+        <h2>Limited-Time Deals</h2>
+        <div class="highlight-grid" id="deals"></div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-slider" id="testimonial-slider"></div>
+    </section>
+
+    <section class="newsletter">
+        <h2>Join Our Newsletter</h2>
+        <form id="newsletter-form">
+            <input type="email" placeholder="Your email" required>
+            <button type="submit" class="btn">Subscribe</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Furniture Store. All rights reserved.</p>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
